@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CoinFlipAnalyzer.cs" />
     <Compile Include="CoinFlipper.cs" />
     <Compile Include="CoinFlipResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

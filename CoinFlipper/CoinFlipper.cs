@@ -8,14 +8,22 @@ namespace CoinFlipper
 {
     public class CoinFlipper
     {
-		protected Random random;
+		protected Random Random;
 
 		public CoinFlipper() {
-			this.random = new Random(DateTime.Now.Millisecond);
+			this.Random = new Random(DateTime.Now.Millisecond);
 		}
 
         public CoinFlipResult Flip() {
-			return (CoinFlipResult)(this.random.Next () % 2);
+			return (CoinFlipResult)(this.Random.Next(2));
         }
+
+        public IEnumerable<CoinFlipResult> FlipLikeCrazy(int numberOfFlips)
+        {            
+            for (int i = 0; i < numberOfFlips; i++)
+            {
+                yield return Flip();
+            }
+        }        
     }
 }

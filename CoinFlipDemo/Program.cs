@@ -10,7 +10,7 @@ namespace CoinFlipDemo
     {
         static void Main(string[] args)
         {
-            Console.Write(new CoinFlipper.CoinFlipper().Flip());
+			Console.WriteLine(new CoinFlipper.CoinFlipper().Flip());
             Console.ReadKey();
         }
     }

@@ -10,7 +10,7 @@ namespace CoinFlipDemo
     class Program
     {
         static void Main(string[] args)
-        { 
+        {
             var coinFlipper = new CoinFlipper.CoinFlipper();
             var coinFlipAnalyzer = new CoinFlipAnalyzer();
 
@@ -24,7 +24,7 @@ namespace CoinFlipDemo
                 flips.Count(f => f == CoinFlipResult.Tail),
                 coinFlipAnalyzer.CountLongestStreak(flips)
             );
-             
+
             Console.ReadKey();
         }
     }

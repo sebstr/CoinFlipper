@@ -10,7 +10,27 @@ namespace CoinFlipper
     {
         public int CountLongestStreak(IEnumerable<CoinFlipResult> flips)
         {
-            return 0;
+            int count = 0;
+            var last = CoinFlipResult.Tail;
+            int longest = 0;
+
+            foreach (var flip in flips)
+            {
+                if (last == flip)
+                {
+                    ++count;
+                    longest = Math.Max(longest, count);
+                }
+                else
+                {
+                    count = 1;
+                    last = flip;
+                }
+            }
+
+            longest = Math.Max(longest, count);
+
+            return longest;
         }
     }
 }

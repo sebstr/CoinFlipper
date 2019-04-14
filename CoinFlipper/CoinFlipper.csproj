@@ -8,4 +8,9 @@
     <Folder Include="Properties\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CoinFlipper.Hardcore\CoinFlipper.Hardcore.fsproj" />
+    <ProjectReference Include="..\CoinFlipper.Models\CoinFlipper.Models.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using CoinFlipper;
+using CoinFlipper.Models;
 using NUnit.Framework;
 
 namespace Tests
@@ -35,6 +36,18 @@ namespace Tests
             };
             var n = new CoinFlipAnalyzer().CountLongestStreak(flips);
             Assert.AreEqual(n, 1);
+        }
+
+        [Test]
+        public void Test_list_with_two_of_same_kind()
+        {
+            var flips = new List<CoinFlipResult>()
+            {
+                CoinFlipResult.Head,
+                CoinFlipResult.Head
+            };
+            var n = new CoinFlipAnalyzer().CountLongestStreak(flips);
+            Assert.AreEqual(n, 2);
         }
 
         [Test]

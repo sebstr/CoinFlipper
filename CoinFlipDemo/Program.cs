@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using CoinFlipper;
+using CoinFlipper.Models;
 
 namespace CoinFlipDemo
 {

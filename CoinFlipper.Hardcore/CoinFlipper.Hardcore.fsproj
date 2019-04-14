@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Types.fs" />
+    <Compile Include="Analyzers\OneLinerAnalyzer.fs" />
+    <Compile Include="Analyzers\RecursionAnalyzer.fs" />
+    <Compile Include="HardcoreAdapter.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoinFlipper.Models\CoinFlipper.Models.csproj" />
+  </ItemGroup>
+
+</Project>

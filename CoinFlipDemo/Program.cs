@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using CoinFlipper;
 
 namespace CoinFlipDemo
@@ -14,7 +11,7 @@ namespace CoinFlipDemo
             var coinFlipper = new CoinFlipper.CoinFlipper();
             var coinFlipAnalyzer = new CoinFlipAnalyzer();
 
-			Console.WriteLine(coinFlipper.Flip());
+            Console.WriteLine(coinFlipper.Flip());
 
             var flips = coinFlipper.FlipLikeCrazy(5).ToList();
             Console.WriteLine("Flipped like crazy {0} times. Got {1} heads and {2} tails. " +

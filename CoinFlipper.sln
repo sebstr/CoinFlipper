@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27428.2037
+VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinFlipper", "CoinFlipper\CoinFlipper.csproj", "{8754D253-54E9-4145-9896-28D8F7707C1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinFlipper", "CoinFlipper\CoinFlipper.csproj", "{EA396A21-61F5-4E38-BC44-BAF53515F751}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinFlipDemo", "CoinFlipDemo\CoinFlipDemo.csproj", "{DD459F57-DFEB-4453-8CCB-AD387C112B93}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinFlipDemo", "CoinFlipDemo\CoinFlipDemo.csproj", "{895D76C2-96F2-4BAB-9137-45A361913C23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinFlipperUnitTests", "CoinFlipperUnitTests\CoinFlipperUnitTests.csproj", "{1DBF4FB0-0AE9-40B4-86C8-2866215088CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinFlipperUnitTests", "CoinFlipperUnitTests\CoinFlipperUnitTests.csproj", "{DD521909-E388-4C60-989A-2D7A50653D3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,26 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8754D253-54E9-4145-9896-28D8F7707C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8754D253-54E9-4145-9896-28D8F7707C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8754D253-54E9-4145-9896-28D8F7707C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8754D253-54E9-4145-9896-28D8F7707C1B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD459F57-DFEB-4453-8CCB-AD387C112B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD459F57-DFEB-4453-8CCB-AD387C112B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD459F57-DFEB-4453-8CCB-AD387C112B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD459F57-DFEB-4453-8CCB-AD387C112B93}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1DBF4FB0-0AE9-40B4-86C8-2866215088CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1DBF4FB0-0AE9-40B4-86C8-2866215088CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1DBF4FB0-0AE9-40B4-86C8-2866215088CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1DBF4FB0-0AE9-40B4-86C8-2866215088CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA396A21-61F5-4E38-BC44-BAF53515F751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA396A21-61F5-4E38-BC44-BAF53515F751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA396A21-61F5-4E38-BC44-BAF53515F751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA396A21-61F5-4E38-BC44-BAF53515F751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{895D76C2-96F2-4BAB-9137-45A361913C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895D76C2-96F2-4BAB-9137-45A361913C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895D76C2-96F2-4BAB-9137-45A361913C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895D76C2-96F2-4BAB-9137-45A361913C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD521909-E388-4C60-989A-2D7A50653D3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD521909-E388-4C60-989A-2D7A50653D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD521909-E388-4C60-989A-2D7A50653D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD521909-E388-4C60-989A-2D7A50653D3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {48F762A0-26D3-4D1F-A737-7D3BBE828F6B}
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = CoinFlipDemo\CoinFlipDemo.csproj
+		SolutionGuid = {970EE705-7437-4CD7-97CF-80E536B259E2}
 	EndGlobalSection
 EndGlobal

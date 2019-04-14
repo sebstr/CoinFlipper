@@ -1,22 +1,21 @@
-﻿using System;
 using System.Collections.Generic;
 using CoinFlipper;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
-namespace CoinFlipperUnitTests
-{
-    [TestClass]
+namespace Tests
+{    
+
     public class CoinFlipAnalyzerUnitTests
     {
-        [TestMethod]
+        [Test]
         public void Test_empty_list()
         {
-            var flips = new List<CoinFlipResult>() {};
+            var flips = new List<CoinFlipResult>() { };
             var n = new CoinFlipAnalyzer().CountLongestStreak(flips);
             Assert.AreEqual(n, 0);
         }
 
-        [TestMethod]
+        [Test]
         public void Test_single_item_list()
         {
             var flips = new List<CoinFlipResult>()
@@ -27,7 +26,7 @@ namespace CoinFlipperUnitTests
             Assert.AreEqual(n, 1);
         }
 
-        [TestMethod]
+        [Test]
         public void Test_list_with_two_of_different_kind()
         {
             var flips = new List<CoinFlipResult>()
@@ -38,7 +37,7 @@ namespace CoinFlipperUnitTests
             Assert.AreEqual(n, 1);
         }
 
-        [TestMethod]
+        [Test]
         public void Test_list_having_longest_streak_in_the_middle()
         {
             var flips = new List<CoinFlipResult>()
@@ -64,4 +63,5 @@ namespace CoinFlipperUnitTests
             Assert.AreEqual(n, 5);
         }
     }
+
 }

@@ -8,7 +8,8 @@ namespace CoinFlipper
     {
         public int CountLongestStreak(IEnumerable<CoinFlipResult> flips)
         {
-            return HardcoreAdapter.CountLongestStreak(flips);
+            //return HardcoreAdapter.CountLongestStreak(flips);
+            return new LongestStreakObfuscatedRecursiveStrategy().Count(flips);
         }
     }
 }
